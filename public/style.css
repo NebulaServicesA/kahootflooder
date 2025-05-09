@@ -1,0 +1,123 @@
+
+:root {
+  --kahoot-purple: #46178f;
+  --kahoot-pink: #ff3355;
+  --kahoot-blue: #0542b9;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, var(--kahoot-purple) 0%, var(--kahoot-blue) 100%);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: var(--kahoot-purple);
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--kahoot-purple);
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border-color: var(--kahoot-pink);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 51, 85, 0.2);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-transform: uppercase;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:first-of-type {
+  background: var(--kahoot-pink);
+  color: white;
+  margin-bottom: 10px;
+}
+
+.leave-btn {
+  background: var(--kahoot-purple);
+  color: white;
+}
+
+#status {
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.success {
+  background: #4CAF50;
+  color: white;
+}
+
+.error {
+  background: var(--kahoot-pink);
+  color: white;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--kahoot-pink);
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+input[type="checkbox"] + span {
+  vertical-align: middle;
+}
