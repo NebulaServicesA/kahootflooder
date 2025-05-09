@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "an-array-of-english-words": "^2.0.0",
+    "beepbeep": "^1.3.0",
+    "console-title": "^1.1.0",
+    "express": "^5.1.0",
+    "kahoot.js-latest": "^1.0.5",
+    "kahoot.js-updated": "^3.404.1",
+    "node-fetch": "^3.2.6",
+    "random-name": "^0.1.2",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2"
+  }
+}
